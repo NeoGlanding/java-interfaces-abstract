@@ -30,6 +30,6 @@ public class Phone implements Gadget {
 
     @Override
     public void powerOff() {
-        System.out.println("Phone Systemoff");
+        System.out.println("Phone System off");
     }
 }
