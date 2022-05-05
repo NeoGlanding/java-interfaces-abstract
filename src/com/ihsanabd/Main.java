@@ -7,7 +7,9 @@ public class Main {
         Phone ihsanPhone = new Phone("Samsung", "202020A", "S20");
         Dog jackson = new Dog("Jackson", 20);
         InnerClass lock = new InnerClass("Budi");
-        InnerClass.Inner xl = new lock.Inner("Slk");
+        InnerClass.Inner xl = lock.new Inner("Mashokk");
+
+        System.out.println(xl.getName());
     }
 
 //    Inner Class
